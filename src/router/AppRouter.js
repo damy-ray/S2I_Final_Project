@@ -31,12 +31,13 @@ const AppRouter = () => {
       <div className="h-full">
         <Routes>
           {currentUser && <Route path="/" element={<HomePage />} />}
-          {!currentUser && <Route path="/login" element={<Login />} ></Route>}
+          {!currentUser && <Route path="/" element={<Login />} ></Route>}
           {!currentUser && <Route path="/register" element={<Register />} ></Route>}
           
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route path="*" element={<PageNotFound />} />
+          {/* <Route path={`${('/login' || '/register') ? ('/login' || '/register')  : '*' }`} element={<PageNotFound />} /> */}
+
           {/* Private routes */}
           <Route
             path="/methane"
