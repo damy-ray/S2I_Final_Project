@@ -1,5 +1,5 @@
 {
-  "name": "react-project",
+  "name": "s2i-react-final-project",
   "version": "0.1.0",
   "private": true,
   "proxy": "https://global-warming.org/api",

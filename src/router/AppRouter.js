@@ -17,7 +17,7 @@ import { useContext } from "react";
 import Footer from "../Components/Footer";
 import Login from "Views/Login";
 import Register from "Views/Register";
-import PageNotFound from "Components/core/PageNotFound";
+//import PageNotFound from "Components/core/PageNotFound";
 const AppRouter = () => {
   const { currentUser } = useContext(AuthContext);
 
