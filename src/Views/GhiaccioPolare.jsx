@@ -7,7 +7,6 @@ import ChartComponent from 'Components/core/Chart';
 import Endpoints from "Resources/Endpoints"
 
 const url = `${Endpoints.BASE}${Endpoints.MAIN.ARCTIC.URL}`;
-const method = `${Endpoints.BASE}${Endpoints.MAIN.ARCTIC.METHOD}`;
 
 
 const GhiaccioPolarePage = () => {

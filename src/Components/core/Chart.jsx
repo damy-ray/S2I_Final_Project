@@ -75,7 +75,7 @@ const ChartComponent = ({ data, dataLabel, title, type, chartType }) => {
           : null,
       ].filter(Boolean), 
     });
-  }, [data, type, dataLabel]);
+  }, [data, chartType, type, dataLabel]);
 
   // Chart options
   const options = {
